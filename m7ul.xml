@@ -136,7 +136,6 @@
   <project name="Superuser" path="external/koush/Superuser"  />
   <project name="android_device_generic_goldfish" path="device/generic/goldfish" />
 
-
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
@@ -149,9 +148,9 @@
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
 
-  <project path="external/kernel-headers" name="android_external_kernel-headers" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" />
 
 </manifest>
 
