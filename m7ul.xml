@@ -128,7 +128,7 @@
   <project name="android_external_pigz" path="external/pigz"/>
   <project name="android_external_fsck_msdos" path="external/fsck_msdos" />
   <project name="android_external_kernel-headers" path="external/kernel-headers" />
-  <!--<project name="android_libnativehelper" path="libnativehelper"/>-->
+  <project name="android_libnativehelper" path="libnativehelper"/>
   <project name="android_system_bluetooth" path="system/bluetooth"/>
   <project name="android_system_extras" path="system/extras"/>
   <project name="android_system_media" path="system/media"/>
