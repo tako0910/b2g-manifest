@@ -21,7 +21,7 @@
 
   <!-- device specific -->
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" revision="78d732b78152db6fb4db3fbfeafa6ee0f65ee069" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" />
 
