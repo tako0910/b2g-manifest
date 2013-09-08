@@ -154,4 +154,6 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="3cc1f8a1eb2986db05de6dd25c0869921dc41136"/>
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" revision="5fd7655a5b8ecb6e94fafcfbe02feaf6bdd94a9d"/>
 
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" revision="20868eeb0140b90bcfe535d792f7efca837dd906" />
+
 </manifest>
