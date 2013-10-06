@@ -3,6 +3,7 @@
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
+  <remote fetch="git://github.com/firefoxos-htc-one/" name="fxoshtcone"/>
 
   <default revision="cm-10.2" remote="CyanogenMod" sync-c="true" sync-j="4"/>
 
@@ -19,7 +20,6 @@
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
 
   <!-- device specific -->
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul"/>
   <project path="device/htc/m7-common" name="android_device_htc_m7-common"/>
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common"/>
   <project path="kernel/htc/m7" name="android_kernel_htc_m7"/>
@@ -156,4 +156,6 @@
 
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" />
 
+  <!-- m7ul hacks -->
+  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="fxoshtcone"/>
 </manifest>
