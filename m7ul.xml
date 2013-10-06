@@ -2,21 +2,21 @@
   <remote fetch="git://github.com/CyanogenMod/" name="CyanogenMod"/>
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
-  <remote fetch="git://github.com/apitrace/" name="apitrace"/>
+  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <default revision="cm-10.2" remote="CyanogenMod" sync-c="true" sync-j="4"/>
 
   <!-- b2g -->
-  <project name="platform_build" path="build" remote="b2g">
+  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="mozilla-central" path="gecko" remote="mozilla"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g"/>
-  <project name="fake-libdvm" path="dalvik" remote="b2g"/>
-  <project name="gaia" path="gaia" remote="b2g"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g"/>
-  <project name="moztt" path="external/moztt" remote="b2g"/>
+
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
+  <project name="gaia" path="gaia" remote="b2g" revision="master"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
 
   <!-- device specific -->
   <project path="device/htc/m7ul" name="android_device_htc_m7ul"/>
