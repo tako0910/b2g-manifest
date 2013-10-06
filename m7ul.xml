@@ -85,7 +85,7 @@
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="android_external_libnl-headers" path="external/libnl-headers"/>
   <project name="android_external_libogg" path="external/libogg"/>
-  <project name="android_external_libpng" path="external/libpng"/>
+  <project name="android_external_libpng" path="external/libpng" revision="767d210c9cf2281a709841cc601f9fb98542fb33"/>
   <project name="android_external_libselinux" path="external/libselinux"/>
   <project name="android_external_libsepol" path="external/libsepol"/>
   <project name="android_external_libvpx" path="external/libvpx"/>
