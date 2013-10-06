@@ -158,4 +158,6 @@
 
   <!-- m7ul hacks -->
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="fxoshtcone"/>
+  <project path="vendor/htc/m7ul" name="android_vendor_htc_m7-common" remote="fxoshtcone"/>
+  <project path="vendor/htc/m7-common" name="android_vendor_htc_m7ul" remote="fxoshtcone"/>
 </manifest>
