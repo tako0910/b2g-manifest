@@ -30,8 +30,6 @@
   <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
-  <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
-  <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
   <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- Stock Android things -->
@@ -112,6 +110,6 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="aosp-new/master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="aosp-new/master" />
   <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="master" />
-  <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
+  <project path="sdk" name="android-sdk" remote="b2g" revision="emu-fix" />
 
 </manifest>
