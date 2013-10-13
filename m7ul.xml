@@ -118,7 +118,7 @@
   <project name="android_external_zlib" path="external/zlib" revision="20f1a74432fdb680742c150dc63e4d9ca3bbc2ad"/>
   <project name="android_frameworks_av" path="frameworks/av" revision="5edd1d05a93981ef8fc471c5a62d80239e028a89"/>
   <project name="android_frameworks_base" path="frameworks/base" revision="1795af152eb1290b87eda3dbbe4400a253fcb73c"/>
-  <project name="android_frameworks_native" path="frameworks/native" revision="c91472ded700602c161359c9eb1de8d57743d771"/>
+  <project name="android_frameworks_native" path="frameworks/native" revision="cde26d874240c6d8f82bdc21db0a88048df4a2ee"/>
   <project name="android_frameworks_opt_emoji" path="frameworks/opt/emoji" revision="322e6214549f9f9fcd9507b700a4ac4244d1283f"/>
   <project name="android_frameworks_wilhelm" path="frameworks/wilhelm" revision="073b5888c2af197c129b1b8d2a4deeaf9870e2ed"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" revision="01e13f8960a36bce415a74936b6b75accca2d463"/>
