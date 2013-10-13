@@ -124,7 +124,7 @@
   <project name="android_hardware_libhardware" path="hardware/libhardware"/>
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="android_libcore" path="libcore"/>
-  <project name="android_external_pigz" path="external/pigz"/>
+<!--  <project name="android_external_pigz" path="external/pigz"/>-->
   <project name="android_external_fsck_msdos" path="external/fsck_msdos"/>
   <project name="android_external_kernel-headers" path="external/kernel-headers"/>
   <project name="android_libnativehelper" path="libnativehelper"/>
