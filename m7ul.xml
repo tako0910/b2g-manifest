@@ -106,7 +106,6 @@
   <project name="android_external_sqlite" path="external/sqlite" revision="cbaae1b3f75bc176df00b9ae787580420e71bf38"/>
   <project name="android_external_stlport" path="external/stlport" revision="03276356a4c22d112a31ae92342bace366af1681"/>
   <project name="android_external_strace" path="external/strace" revision="a59267872085b4da05f1ea3488bbd6a0eb7a5991"/>
-  <project name="android_external_svox" path="external/svox" revision="2b4425b224ae8ae491d204d0c65498546c821e6d"/>
   <project name="android_external_tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
   <project name="android_external_tinyalsa" path="external/tinyalsa" revision="5be07e27390ae80a4dca2e591abb102aa761fc2a"/>
   <project name="android_external_tinyxml" path="external/tinyxml" revision="a17c84af14443fc16de6816dda78ace22299ee03"/>
